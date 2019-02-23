@@ -1,0 +1,32 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+build
+.nuxt
+
+# Nuxt generate
+dist
+
+logs/
+npm-debug.log
+coverage/
+.idea/
+run/
+logs/
+.DS_Store
+.vscode
+*.swp
+*.lock
+*.js
+!.autod.conf.js
+
+app/**/*.js
+test/**/*.js
+config/**/*.js
+app/**/*.map
+test/**/*.map
+config/**/*.map

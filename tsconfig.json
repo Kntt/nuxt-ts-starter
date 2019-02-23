@@ -1,0 +1,22 @@
+{
+  "extends": "@nuxt/typescript-edge",
+  "compilerOptions": {
+    // "rootDir": "./",
+    "baseUrl": "./",
+    "strict": true,
+    "allowJs": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "~/*": ["./src/*"],
+      "@/*": ["./src/*"]
+    },
+    "types": [
+      "@types/node",
+      "@nuxt/vue-app-edge"
+    ]
+  },
+}
