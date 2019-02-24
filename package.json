@@ -11,7 +11,7 @@
     "lint": "eslint --ext .ts,.vue src --fix"
   },
   "dependencies": {
-    "nuxt-ts-edge": "latest"
+    "nuxt-ts": "latest"
   },
   "devDependencies": {
     "@nuxtjs/auth": "^4.5.3",
