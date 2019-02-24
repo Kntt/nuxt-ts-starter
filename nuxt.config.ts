@@ -32,6 +32,9 @@ export default {
    ** Build configuration
    */
     css: ['~/assets/css/main.css'],
+    modules: ['@nuxtjs/axios'],
+    plugins: [],
+    axios: {},
     srcDir: './src',
     build: {
         extend (config: any, ctx: any) {
@@ -45,6 +48,8 @@ export default {
             }
         }
     },
-    modules: ['@nuxtjs/axios'],
-    axios: {}
+    server: {
+        port: 8080,
+        host: '0.0.0.0'
+    }
 }
