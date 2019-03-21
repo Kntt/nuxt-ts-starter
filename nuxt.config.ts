@@ -33,7 +33,7 @@ export default {
    */
     css: ['~/assets/css/main.css'],
     modules: ['@nuxtjs/axios'],
-    plugins: [],
+    plugins: ['~/plugins/vuetify'],
     axios: {},
     srcDir: './src',
     build: {
